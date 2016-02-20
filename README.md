@@ -5,6 +5,8 @@ Richel Bilderbeek's 6th CD.
 ![Cover art front](CD06_CoverartFront.png)
 ![Cover art back](CD06_CoverartBack.png)
 
+| # | Title |
+| --- | --- |
 | 01. | Het Leven is naar |
 | 02. | Blauw |
 | 03. | Leontien |
