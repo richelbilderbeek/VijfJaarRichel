@@ -1,4 +1,7 @@
+sudo: true
+
 script: 
+ - sudo apt-get install ffmpeg
  - ./ogg_to_mp3.sh
  - ./zip_oggs.sh
  - ./zip_mp3s.sh
