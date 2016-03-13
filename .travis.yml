@@ -2,7 +2,7 @@ sudo: true
 
 install: 
  - sudo apt-get install ffmpeg 
- - sudo apt-get install vorbistools
+ - sudo apt-get install vorbis-tools
 
 script: 
  - ./ogg_to_mp3.sh
