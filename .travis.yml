@@ -1,7 +1,10 @@
 sudo: true
 
+install: 
+ - sudo apt-get install ffmpeg 
+ - sudo apt-get install vorbistools
+
 script: 
- - sudo apt-get install ffmpeg
  - ./ogg_to_mp3.sh
  - ./zip_oggs.sh
  - ./zip_mp3s.sh
