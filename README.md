@@ -32,5 +32,16 @@ Richel Bilderbeek's 6th CD called 'Vijf Jaar Richel'.
 | 23. | Moordenaars | [here](CD06_23Moordenaars.ogg) |
 | 24. | Het Leven is een ***** *********** | [here](CD06_24HetLevenIsEenVuileKolerelijer.ogg) |
 
+## Build
+
+[![Build Status](https://travis-ci.org/richelbilderbeek/VijfJaarRichel.svg?branch=master)](https://travis-ci.org/richelbilderbeek/VijfJaarRichel)
+
+To build the MP3's and zip file, use:
+
+```
+./ogg_to_mp3.zip
+./zip_oggs.sh
+./zip_mp3.sh
+```
 
 

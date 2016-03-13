@@ -3,6 +3,7 @@ sudo: true
 install: 
  - sudo apt-get install ffmpeg 
  - sudo apt-get install vorbis-tools
+ - sudo apt-get install mpg123
 
 script: 
  - ./ogg_to_mp3.sh
