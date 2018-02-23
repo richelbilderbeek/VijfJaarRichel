@@ -1,11 +1,14 @@
-sudo: true
-
-install: 
- - sudo apt-get install ffmpeg 
- - sudo apt-get install vorbis-tools
- - sudo apt-get install mpg123
-
-script: 
- - ./ogg_to_mp3.sh
- - ./zip_oggs.sh
- - ./zip_mp3s.sh
+install:
+  #- sudo apt-get install ffmpeg 
+  #- sudo apt-get install vorbis-tools
+  #- sudo apt-get install mpg123
+  # Check dead links
+  - sudo apt-get install npm
+  - sudo npm install -g markdown-link-check
+  
+script:
+  # Check dead links
+  - ./check_dead_links 
+  #- ./ogg_to_mp3.sh
+  #- ./zip_oggs.sh
+  #- ./zip_mp3s.sh
